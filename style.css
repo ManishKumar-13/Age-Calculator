@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a6cf1;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date-input {
+    background-color: #080808;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+input {
+    padding: 1rem;
+    width: 18rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    margin-right: 2rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.output {
+    display: flex;
+    margin-top: 2rem;
+    gap: 6rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #080808;
+    padding: 1.5rem 2rem;
+    gap: 1rem;
+    border-radius:0.3rem ;
+}
+
+
+#years p:first-child,
+#months p:first-child,
+#days p:first-child {
+    color: white;
+    font-size: 2rem;
+}
+
+#years p:last-child,
+#months p:last-child,
+#days p:last-child {
+    color: grey;
+}
